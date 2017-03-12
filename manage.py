@@ -15,7 +15,7 @@ manager.add_command("runserver",
 
 @manager.command
 def save_todo():
-    todo = models.Todo(content="my first todo")
+    todo = Todo(content="my first todo")
     todo.save()
 
 
